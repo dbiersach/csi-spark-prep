@@ -1,0 +1,37 @@
+https://thonny.org
+
+For Windows PC:
+	https://github.com/thonny/thonny/releases/download/v4.0.1/thonny-4.0.1.exe
+
+For Mac OS:	
+	https://github.com/thonny/thonny/releases/download/v4.0.1/thonny-4.0.1.pkg
+	
+For Chromebooks / Ubuntu:
+	sudo apt install -y thonny	
+
+Websites You Must Be Able To Access:
+	https://pypi.org
+	https://files.pythonhosted.org
+	https://github.com/dbiersach/csi-spark-prep
+
+Required Packages to install into Thonny:
+	numpy
+	matplotlib
+	sympy
+	scipy
+	scikit-learn
+	pulp
+	pandas
+	numexpr
+	pathspec
+	pylint
+	autopep8
+	numba
+
+Required Plug-in to install into Thonny:
+	thonny-black-format
+
+
+
+
+
