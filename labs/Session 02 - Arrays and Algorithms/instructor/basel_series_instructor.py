@@ -2,12 +2,17 @@
 
 import numpy as np
 
-num_terms = 10_000
 
-a = np.arange(1, num_terms + 1)
+def main():
+    num_terms = 10_000
 
-sigma = np.sum(1 / a**2)
+    a = np.arange(1, num_terms)
 
-print(f"Sum of first {num_terms:,} terms = {sigma}")
+    sigma = np.sum(1 / a)
 
-print(f"Magic number = {np.sqrt(sigma * 6)}")
+    print(f"Sum of first {num_terms:,} terms = {sigma}")
+    
+    print(f"Magic number = {np.sqrt(sigma * 6)}")
+
+
+main()

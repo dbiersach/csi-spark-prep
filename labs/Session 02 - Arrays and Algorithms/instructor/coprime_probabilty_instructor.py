@@ -2,17 +2,22 @@
 
 import numpy as np
 
-np.random.seed(2021)
 
-max_num = 100_000
-num_pairs = 10_000
+def main():
+    np.random.seed(2021)
 
-a = np.random.randint(1, max_num, size=num_pairs)
-b = np.random.randint(1, max_num, size=num_pairs)
+    max_num = 100_000
+    num_pairs = 10_000
 
-c = np.gcd(a, b)
-num_coprime_pairs = np.count_nonzero(c == 1)
-p = num_coprime_pairs / num_pairs
+    a = np.random.randint(1, max_num, size=num_pairs)
+    b = np.random.randint(1, max_num, size=num_pairs)
 
-print(f"Coprime Probability = {p}")
-print(f"Hidden constant     = {np.sqrt(6 / p)}")
+    c = np.gcd(a, b)
+    num_coprime_pairs = np.count_nonzero(c == 1)
+    p = num_coprime_pairs / num_pairs
+
+    print(f"Coprime Probability = {p}")
+    print(f"Hidden constant     = {np.sqrt(6 / p)}")
+
+
+main()
