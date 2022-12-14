@@ -9,7 +9,7 @@ def main():
 
     lcm = (num1 * num2) / np.gcd(num1, num2)
 
-    print(f"The LCM of {num1:,.0f} and {num2:,} is {lcm:,.0f}")
+    print(f"The LCM of {num1:,} and {num2:,} is {lcm:,.0f}")
 
 
 main()
